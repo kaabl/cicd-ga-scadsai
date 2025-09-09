@@ -11,4 +11,4 @@ def compute(series: pd.Series) -> float:
         float: The mean of the series.
 
     """
-    return series.mean()
+    return series.max()
