@@ -2,13 +2,13 @@ import pandas as pd
 
 
 def compute(series: pd.Series) -> float:
-    """Compute the mean of a pandas Series.
+    """Compute the max of a pandas Series.
 
     Args:
-        series (pd.Series): Input series to compute the mean.
+        series (pd.Series): Input series to compute the max.
 
     Returns:
-        float: The mean of the series.
+        float: The max of the series.
 
     """
     return series.max()
